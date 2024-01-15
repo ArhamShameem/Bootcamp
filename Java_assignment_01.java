@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bootcamp_01 {
+public class Java_assignment_01 {
     private static int userIdCounter = 1;
 
     public static void main(String[] args) {
