@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerHTML vs innerText Example</title>
+</head>
+<body>
+
+    <h2 id="exampleElement">Original Content</h2>
+
+    <button onclick="changeInnerHTML()">Change innerHTML</button>
+    <button onclick="changeInnerText()">Change innerText</button>
+
+    <script>
+        function changeInnerHTML() {
+            document.getElementById("exampleElement").innerHTML = "<em>New Content with <strong>HTML</strong> Tags</em>";
+        }
+
+        function changeInnerText() {
+            document.getElementById("exampleElement").innerText = "New Content without HTML Tags";
+        }
+    </script>
+
+</body>
+</html>
